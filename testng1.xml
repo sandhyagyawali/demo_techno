@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Exercise Suite">
+
+    <groups>
+
+    </groups>
+    <test name="Login Test">
+        <classes>
+            <class name="testCases_Automation.LoginAuto_NG">
+                <methods>
+                    <include name="invalidloginTest"/>
+                    <exclude name="validloginTest"/>
+                </methods>
+            </class>
+            <class name="testCases_Automation.LoginPageFactoryCase"/>
+<!--            <class name="testCases_Automation.day1"/>-->
+        </classes>
+    </test>
+
+<!--    <test name="">-->
+<!--        -->
+<!--    </test>-->
+
+
+</suite>
